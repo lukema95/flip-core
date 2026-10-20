@@ -44,7 +44,7 @@
     "ts-node": "^10.9.2",
     "tslib": "^2.8.1",
     "typechain": "^8.3.0",
-    "typescript": "^5.7.3",
+    "typescript": "^7.0.2",
     "solhint": "^5.0.3",
     "prettier": "^3.3.3"
   },
