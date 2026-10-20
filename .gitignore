@@ -1,0 +1,24 @@
+# Compiler / build output
+cache/
+cache_hardhat/
+out/
+artifacts/
+typechain-types/
+broadcast/
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+.vscode/
+.idea/
+
+# Coverage
+lcov.info
+coverage/

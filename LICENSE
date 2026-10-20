@@ -1,0 +1,9 @@
+Flip is dual-licensed. Full license texts live in licenses/.
+
+- Core contracts (Factory, Flip, Registry, core/, libs/, extensions/bodingcurve/):
+  Business Source License 1.1 -> licenses/BUSL_LICENSE
+  Change Date: 2029-06-15; Change License: MIT
+
+- Interfaces, periphery, examples and tests: MIT -> licenses/MIT_LICENSE
+
+See licenses/README.md for the path-by-path mapping.

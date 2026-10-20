@@ -1,0 +1,75 @@
+{
+  "name": "flip-core",
+  "version": "1.0.0",
+  "description": "Flip core smart contracts",
+  "license": "BUSL-1.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukema95/flip-core.git"
+  },
+  "keywords": [
+    "nft",
+    "bonding-curve",
+    "solidity",
+    "foundry"
+  ],
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^5.2.0",
+    "@openzeppelin/contracts-upgradeable": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "erc6551": "^0.3.1"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.8",
+    "@nomicfoundation/hardhat-foundry": "^1.0.0",
+    "@nomicfoundation/hardhat-network-helpers": "^1.0.0",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.12",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.2.0",
+    "@types/mocha": ">=9.1.0",
+    "@types/node": "^22.13.2",
+    "chai": "^4.2.0",
+    "dotenv": "^16.0.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18",
+    "hardhat-gas-reporter": "^1.0.8",
+    "solidity-coverage": "^0.8.1",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.8.1",
+    "typechain": "^8.3.0",
+    "typescript": "^5.7.3",
+    "solhint": "^5.0.3",
+    "prettier": "^3.3.3"
+  },
+  "scripts": {
+    "build": "forge build",
+    "test": "forge test",
+    "fmt": "forge fmt",
+    "fmt:check": "forge fmt --check",
+    "lint": "solhint 'src/**/*.sol' 'test/**/*.sol' 'script/**/*.sol'",
+    "format:ts": "prettier --write 'scripts/**/*.ts' 'hardhat.config.ts'",
+    "check:licenses": "bash scripts/check-licenses.sh",
+    "snapshot": "forge snapshot",
+    "coverage": "forge coverage --ir-minimum",
+    "typecheck": "tsc --noEmit",
+    "format:ts:check": "prettier --check 'scripts/**/*.ts' 'hardhat.config.ts'",
+    "setup": "git submodule update --init lib/forge-std lib/openzeppelin-contracts lib/openzeppelin-contracts-upgradeable",
+    "lint:sol": "forge lint",
+    "coverage:check": "bash scripts/check-coverage.sh"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "bugs": {
+    "url": "https://github.com/lukema95/flip-core/issues"
+  },
+  "homepage": "https://github.com/lukema95/flip-core#readme",
+  "packageManager": "pnpm@9.12.2"
+}
