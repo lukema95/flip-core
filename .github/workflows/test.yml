@@ -33,7 +33,7 @@ jobs:
           version: v1.8.5
 
       - name: Cache solc
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.svm
           key: svm-${{ runner.os }}-${{ hashFiles('foundry.toml') }}
@@ -85,7 +85,7 @@ jobs:
         run: pnpm typecheck
 
       - name: Cache the Hardhat compiler
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.cache/hardhat-nodejs
           key: hardhat-solc-${{ hashFiles('hardhat.config.ts') }}
@@ -110,7 +110,7 @@ jobs:
           version: v1.8.5
 
       - name: Cache solc
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.svm
           key: svm-${{ runner.os }}-${{ hashFiles('foundry.toml') }}
@@ -136,7 +136,7 @@ jobs:
           version: v1.8.5
 
       - name: Cache solc
-        uses: actions/cache@v4
+        uses: actions/cache@v6
         with:
           path: ~/.svm
           key: svm-${{ runner.os }}-${{ hashFiles('foundry.toml') }}
