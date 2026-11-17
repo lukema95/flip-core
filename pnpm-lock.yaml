@@ -67,8 +67,8 @@ importers:
         specifier: ^1.0.8
         version: 1.0.10(hardhat@2.29.1(ts-node@10.9.2(@types/node@22.20.5)(typescript@5.9.3))(typescript@5.9.3))
       prettier:
-        specifier: ^3.3.3
-        version: 3.9.10
+        specifier: ^3.10.1
+        version: 3.10.1
       solhint:
         specifier: ^5.0.3
         version: 5.2.0(typescript@5.9.3)
@@ -1888,8 +1888,8 @@ packages:
     engines: {node: '>=10.13.0'}
     hasBin: true
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -4621,7 +4621,7 @@ snapshots:
 
   prettier@2.8.8: {}
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   process-nextick-args@2.0.1: {}
 
